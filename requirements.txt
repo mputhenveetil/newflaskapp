@@ -1,2 +1,5 @@
-Flask==1
+:: 2. Install packages
+echo Pip install requirements.
+D:\home\Python364x64\python.exe -m pip install --upgrade -r requirements.txt
+IF !ERRORLEVEL! NEQ 0 goto error
 waitress==1.0.1
